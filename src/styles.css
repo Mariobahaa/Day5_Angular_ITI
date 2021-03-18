@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+table{
+    background-color:gainsboro;
+    border: 2px black  solid;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    font-size: large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+th{
+    border: 1px black  solid;
+    font-weight: bolder;
+}
+
+td{
+    border: 1px black  solid;
+    font-weight: normal;
+}
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
