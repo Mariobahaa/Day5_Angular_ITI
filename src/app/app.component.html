@@ -1,4 +1,14 @@
 <h1>Angular Lab 5 - Mario Bahaa</h1>
+<ul>
+  <li><a routerLink="employees" routerLinkActive="active" class="itm"
+    [routerLinkActiveOptions]="{exact: true }">Home</a></li>
+  <li><a routerLink="employees/1" routerLinkActive="active" class="itm"
+    [routerLinkActiveOptions]="{exact: true }">Details</a></li>
+  <li><a routerLink="callerror" routerLinkActive="active" class="itm"
+    [routerLinkActiveOptions]="{exact: true }">Error</a></li>
+
+
+</ul>
 <div>
   <router-outlet></router-outlet>
 </div>
