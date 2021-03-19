@@ -1,0 +1,38 @@
+[
+    {
+        "id":1,
+        "name":"Leonardo",
+        "age":23,
+        "address": {
+            "city": "New York",
+            "street": "Times Square"
+        }
+    },
+    {
+        "id":2,
+        "name":"Donatello",
+        "age":22,
+        "address": {
+            "city": "Berlin",
+            "street": "Kurfürstendamm"
+        }
+    },
+    {
+        "id":3,
+        "name":"Raphael",
+        "age":21,
+        "address": {
+            "city": "Paris",
+            "street": "Champs-Elysées"
+        }
+    },
+    {
+        "id":4,
+        "name":"Micheal Angelo",
+        "age":21,
+        "address": {
+            "city": "Cairo",
+            "street": "Shubra"
+        }
+    }
+]
