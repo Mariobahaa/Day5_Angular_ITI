@@ -7,6 +7,8 @@ import { EmployeesComponent } from './components/employees/employees.component';
 import { EmpdetailsComponent } from './components/empdetails/empdetails.component';
 import { ErrorComponent } from './components/error/error.component';
 import { FormsModule } from '@angular/forms';
+import {HttpClient, HttpClientModule}  from '@angular/common/http';
+import { ServiceService } from './services/service.service';
 
 @NgModule({
   declarations: [
@@ -18,9 +20,12 @@ import { FormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+      ServiceService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
